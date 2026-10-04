@@ -12,6 +12,10 @@ import instAlphaPair from "@/assets/inst-alpha-pair.asset.json";
 import instKavinaPair from "@/assets/inst-kavina-pair.asset.json";
 import instRamcoNight from "@/assets/inst-ramco-night.asset.json";
 import instInteriorBlue from "@/assets/inst-interior-blue.asset.json";
+import ais153Doc1 from "@/assets/ais-153-doc-1.asset.json";
+import ais153Doc2 from "@/assets/ais-153-doc-2.asset.json";
+import ais153Doc3 from "@/assets/ais-153-doc-3.asset.json";
+import ais153Doc4 from "@/assets/ais-153-doc-4.asset.json";
 
 export const SITE_URL = "https://alfha-coach-craft.lovable.app";
 
@@ -116,5 +120,32 @@ export const institutionalGallery = [
     src: instNatureCabs.url,
     alt: "White staff transport coach with blue and green graphics built by Alfha Coach Builders, Karur",
     title: "Staff Transport Coach",
+  },
+] as const;
+
+export const ais153Gallery = [
+  {
+    src: ais153Doc1.url,
+    alt: "AIS 153 Certified – Alfha Coach Bus Body Builders – Official certification document and approval details",
+    title: "AIS 153 Certification Document",
+    subtitle: "Structural Approval · Alfha Coach Builders Karur",
+  },
+  {
+    src: ais153Doc2.url,
+    alt: "AIS 153 Certified – Alfha Coach Bus Body Builders – Bus body structural verification and compliance records",
+    title: "Structural Verification Sheet",
+    subtitle: "Safety Standards · Bus Body Code Compliance",
+  },
+  {
+    src: ais153Doc3.url,
+    alt: "AIS 153 Certified – Alfha Coach Bus Body Builders – Institutional & school bus body build specifications",
+    title: "Build Specifications & Standards",
+    subtitle: "Karur Workshop · Heavy-Gauge Steel Skeleton",
+  },
+  {
+    src: ais153Doc4.url,
+    alt: "AIS 153 Certified – Alfha Coach Bus Body Builders – Compliance certificate and delivery documentation",
+    title: "Certified Delivery Record",
+    subtitle: "Verified Quality · Long-Term Reliability",
   },
 ] as const;
